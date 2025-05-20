@@ -1,4 +1,4 @@
-Aquí encontrará los docuementos necesarios para la realización de la práctica.
+Aquí encontrará los documentos necesarios para la realización de la práctica.
 
 Los más importantes son los siguientes:
 
