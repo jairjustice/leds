@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "author": "Jair Ontiveros",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 129.5, "left": 43, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led1", "top": 121.3, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led2", "top": 150, "left": 200, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led3", "top": 178.9, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led4", "top": 207.7, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led5", "top": 236.5, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led6", "top": 265.3, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led7", "top": 294.1, "left": 200.6, "attrs": {} },
+    { "type": "wokwi-neopixel", "id": "led8", "top": 322.9, "left": 200.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:D2", "led1:DIN", "white", [] ],
+    [ "led1:DOUT", "led2:DIN", "white", [] ],
+    [ "led2:DOUT", "led3:DIN", "white", [] ],
+    [ "led3:DOUT", "led4:DIN", "white", [] ],
+    [ "led4:DOUT", "led5:DIN", "white", [] ],
+    [ "led5:DOUT", "led6:DIN", "white", [] ],
+    [ "led6:DOUT", "led7:DIN", "white", [] ],
+    [ "led7:DOUT", "led8:DIN", "white", [] ],
+    [ "esp:GND", "led1:GND", "black", [] ],
+    [ "esp:GND", "led2:GND", "black", [] ],
+    [ "esp:GND", "led3:GND", "black", [] ],
+    [ "esp:GND", "led4:GND", "black", [] ],
+    [ "esp:GND", "led5:GND", "black", [] ],
+    [ "esp:GND", "led6:GND", "black", [] ],
+    [ "esp:GND", "led7:GND", "black", [] ],
+    [ "esp:GND", "led8:GND", "black", [] ],
+    [ "esp:3V3", "led1:VCC", "red", [] ],
+    [ "esp:3V3", "led2:VCC", "red", [] ],
+    [ "esp:3V3", "led3:VCC", "red", [] ],
+    [ "esp:3V3", "led4:VCC", "red", [] ],
+    [ "esp:3V3", "led5:VCC", "red", [] ],
+    [ "esp:3V3", "led6:VCC", "red", [] ],
+    [ "esp:3V3", "led7:VCC", "red", [] ],
+    [ "esp:3V3", "led8:VCC", "red", [] ]
+  ],
+  "dependencies": {}
+}
